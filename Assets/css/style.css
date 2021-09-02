@@ -12,25 +12,34 @@ body {
 }
 
 header {
+    margin: 0px;
+    border: 0px;
     padding: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #7c522a;
-    color: lavender;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    background-color: #7c522a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavender;
 }
 
 header img {
-    width: 15%;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 20%;
+    width: 20%;
     border: 5px solid #6e675f;
-    margin-left: 40px;
 }
 
 header h1 {
-    display: inline-block;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 58px;
     color: lavender;
-    font-size: 52px;
+    display: inline-block;
 }
 
 header h1 ul {
@@ -38,19 +47,28 @@ header h1 ul {
 }
 
 header nav {
-    padding-top: 15px;
-    margin-left: 400px;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 0px;
+    padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block
 }
 
 header nav ul {
+    margin-left: 100px;
+    margin-right: 10px;
+    font-size: 38px;
     list-style-type: none;
-    font-size: 32px;
 }
 
 header nav ul li {
+    margin-left: 38px;
+    border: 0px;
+    padding: 0px;
     display: inline-block;
-    margin-left: 40px;
 }
 
 a {
@@ -58,10 +76,14 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 28px;
+}
+
 section {
     margin-top: 10px;
-    padding: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #6e675f;
     color: lavender;
     display: flex;
@@ -71,6 +93,9 @@ section {
 
 section h2 {
     margin-left: 20px;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-right: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -85,4 +110,27 @@ section h2 ul li {
 section p {
     font-size: 20px;
     margin-left: 20px;
+}
+
+section div {
+    font-size: 32px;
+    color: lavender
+}
+
+footer {
+    padding: 10px;
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: lavender;
+}
+
+footer h3 {
+    font-size: 15px;
+    color: lavender;
+}
+
+footer p {
+    font-size: 15px;
+    color: lavender;
 }
