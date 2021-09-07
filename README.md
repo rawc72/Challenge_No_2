@@ -1,26 +1,8 @@
-# 02 Advanced CSS: Portfolio
-
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note**: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+# Challenge No. 02 Advanced CSS: Portfolio
+The purpose of this Challenge is to create a web site for a portfolio of work where I can can showcase my skills and talents to employers looking to fill a part-time or full-time position. The web site should highlight my strongest work. Because at this point in the Boot Camp I don't have a portfolio of works except for Horiseon (Challenge No. 1), I will put place holders which I will fill with links to completed work in the future.
 
 ## Acceptance Criteria
-
-```
+The acceptance criteria for a successfull functioning web site are:
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -34,19 +16,24 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
-```
 
-The following animation shows the web application's appearance and functionality:
+The following link takes you to the web site with all of the functionalities listed above: 
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+The <header> of the web site will look as per the image below: ![](images/WebsiteHeader.png)
 
-## Review
+## General Commentary
+When producing the code, I used the mock-up provided by the Challenge to design my own portfolio web site. 
+I structured the web site, and therefore the code, to resemble the mock-up with 5 different sections.
+The first section is the <header>, where I included an image of myself and a <nav> bar. The <nav> bar includes links to the four sections that follow. These sections are: (i) About Me, (ii) My Work, (iii) Contact Me, and (iv) Resume.
 
-You are required to submit BOTH of the following for review:
+## About Me
+The About Me section includes a brief history about my college and professional life. It includes information about the universities I have attended and the different industries in which I have worked-in.
 
-* The URL of the deployed application.
+## My Work
+The My Work section refers specifically to the work related to coding. Because I am new to coding, I only have the worked related to Challenge No. 1. I have included an image and two links so that any interested party can review the source code and the deployed web site. As for the other four slots to present my work, I set place holders without any links for the time being. As I expand my portfolio, I will add the more complex coding projects.
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+# Contact Me
+The Contact Me section is divided into two components. The first component corresponds to static/traditional contact data points such as phone and emails. The second component correspnds to social media links. The social media links take the User to my social media pages where thay can have access to contact points with me.
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+# My Resume 
+The My Resume section includes a link to a pdf file with my education, work, and other related information.
